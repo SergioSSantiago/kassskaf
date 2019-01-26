@@ -25,3 +25,4 @@ ADD supervisor/kafka.conf supervisor/zookeeper.conf /etc/supervisor/conf.d/
 EXPOSE 2181 9092
 
 CMD ["supervisord", "-n"]
+CMD ["./script.sh"]
