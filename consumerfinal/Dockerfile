@@ -4,6 +4,7 @@ ADD consumerfinal.py /
 
 RUN pip install pystrich
 # Make port 80 available to the world outside this container
+
 EXPOSE 9092
 
 # Run app.py when the container launches
